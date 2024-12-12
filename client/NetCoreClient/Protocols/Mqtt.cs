@@ -6,7 +6,7 @@ namespace NetCoreClient.Protocols
 {
     internal class Mqtt : IProtocolInterface
     {
-        private const string TOPIC_PREFIX = "iot2025test/";
+        private const string TOPIC_PREFIX = "casetta/1/sensor/";
         private IMqttClient mqttClient;
         private string endpoint;
 
@@ -32,9 +32,19 @@ namespace NetCoreClient.Protocols
 
         public async void Send(string data, string sensor)
         {
+            DateOnly currentime  = new DateOnly();
+            var payload = new
+            {
+                currentime = DateTime.Now.ToString("yy-MM-dd/HH:mm:ss zzz"),
+                sensorName = sensor,
+                value = data
+            };
+
+            string jsonPayload = System.Text.Json.JsonSerializer.Serialize(payload);
+
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(TOPIC_PREFIX + sensor)
-                .WithPayload(data)
+                .WithPayload(jsonPayload)
                 .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.ExactlyOnce)
                 .Build();
 
