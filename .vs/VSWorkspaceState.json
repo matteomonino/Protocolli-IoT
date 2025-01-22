@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\NetCoreClient",
+    "\\client\\NetCoreClient\\Protocols",
+    "\\server"
+  ],
+  "SelectedNode": "\\client\\NetCoreClient\\NetCoreClient.sln",
+  "PreviewInSolutionExplorer": false
+}
