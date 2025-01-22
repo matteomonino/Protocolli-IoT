@@ -25,10 +25,10 @@ Questo progetto è un'applicazione Node.js che consente di raccogliere, salvare 
 ---
 ## Project Structure
 
-├── server.js              # Server principale
-├── package.json           # Configurazioni del progetto e dipendenze
-├── README.md              # Documentazione del progetto
-└── .gitignore             # File per ignorare specifici file nel repository
+`├──` server.js              # Server principale
+`├──` package.json           # Configurazioni del progetto e dipendenze
+`├──` README.md              # Documentazione del progetto
+'└──' .gitignore             # File per ignorare specifici file nel repository
 
 
 
