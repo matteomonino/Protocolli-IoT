@@ -17,25 +17,11 @@ Questo progetto è un'applicazione Node.js che consente di raccogliere, salvare 
 
 ---
 
-## **Installazione**
 ### **Requisiti**
 - **Node.js** v14 o superiore
 - **MongoDB** (locale o remoto)
 - **npm** (installato con Node.js)
 
-### **Passaggi**
-1. **Clona il repository**:
-   ```bash
-   git clone https://github.com/tuo-utente/nome-repo.git
-   cd nome-repo
 
-   {
-    "_id": "64b9f2b5a7e4e09a99c8b67e",
-    "coolerId": "123",
-    "sensorName": "temperature",
-    "currentTime": "23-01-22/15:30:45 +0200",
-    "value": "22.5",
-    "timestamp": "2025-01-22T15:30:45.000Z"
-}
 
 
