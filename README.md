@@ -1,3 +1,10 @@
+# Protocolli-IoT
+Componenti gruppo:
+- Matteo Monino
+- Matteo Santi
+
+
+
 Questo progetto esplora diversi protocolli utilizzati nell'Internet delle Cose (IoT), con un focus particolare su HTTP.
 
 ## Contenuto del Progetto
