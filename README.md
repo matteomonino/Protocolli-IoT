@@ -15,7 +15,6 @@ Questo progetto esplora diversi protocolli utilizzati nell'Internet delle Cose (
 - `AMQP/`: Contiene esempi e implementazioni relative al protocollo AMQP.
 
 ## Requisiti
-- Python 3.x
 - Librerie specifiche elencate in requirements.txt
 
 ## Installazione
