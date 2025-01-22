@@ -23,13 +23,8 @@ Questo progetto è un'applicazione Node.js che consente di raccogliere, salvare 
 - **npm** (installato con Node.js)
 
 ---
-# Struttura del progetto
-
-
-`├──` **server.js**              # Server principale
-`├──` **package.json**           # Configurazioni del progetto e dipendenze
-`├──` **README.md**              # Documentazione del progetto
-`└──` **.gitignore**             # File per ignorare specifici file nel repository
+## Licenza
+Questo progetto è distribuito sotto la licenza MIT. Vedi il file LICENSE per maggiori dettagli.
 
 
 
