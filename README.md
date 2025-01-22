@@ -23,8 +23,8 @@ Questo progetto è un'applicazione Node.js che consente di raccogliere, salvare 
 - **npm** (installato con Node.js)
 
 ---
-##Project Structure
-  .
+## Project Structure
+
 ├── server.js              # Server principale
 ├── package.json           # Configurazioni del progetto e dipendenze
 ├── README.md              # Documentazione del progetto
