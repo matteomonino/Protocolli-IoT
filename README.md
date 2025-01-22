@@ -15,7 +15,6 @@ Questo progetto esplora diversi protocolli utilizzati nell'Internet delle Cose (
 - `mqtt/`: Contiene esempi e implementazioni relative al protocollo MQTT.
 
   ## Requisiti
-- Python 3.x
 - Librerie specifiche elencate in requirements.txt
 
 # Installazione
