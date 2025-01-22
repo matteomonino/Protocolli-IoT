@@ -22,6 +22,15 @@ Questo progetto è un'applicazione Node.js che consente di raccogliere, salvare 
 - **MongoDB** (locale o remoto)
 - **npm** (installato con Node.js)
 
+---
+##Project Structure
+  .
+├── server.js              # Server principale
+├── package.json           # Configurazioni del progetto e dipendenze
+├── README.md              # Documentazione del progetto
+└── .gitignore             # File per ignorare specifici file nel repository
+
+
 
 
 
